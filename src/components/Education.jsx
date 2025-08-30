@@ -31,7 +31,7 @@ export default function Education() {
   return (
     <section id="education" className="py-20 bg-base-200">
     <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
-      <h2 className="text-3xl font-bold text-center">Educational Qualifications</h2>
+      <h2 className="text-3xl font-bold text-center">Education</h2>
       {education.map((edu, index) => (
         <a key={index} href={edu.link} >
             <div
@@ -53,10 +53,10 @@ export default function Education() {
             />
             <div style={{ flex: 1 }}>
                 <h2>{edu.id}</h2>
-                <h3 style={{ margin: "0 0 8px 0", fontFamily: "Arial, sans-serif", fontSize: "18px", color: "#fff" }}>
+                <h3 style={{ margin: "0 0 8px 0", fontFamily: "Arial, sans-serif", fontSize: "18px", color: "#ffffffff" }}>
                 {edu.title}
                 </h3>
-                <p style={{ margin: "0 0 4px 0", fontFamily: "Arial, sans-serif", fontSize: "14px", color: "#fff" }}>
+                <p style={{ margin: "0 0 4px 0", fontFamily: "Arial, sans-serif", fontSize: "14px", color: "#ffffffff" }}>
                 {edu.perf}
                 </p>
                 <p style={{ margin: 0, fontFamily: "Arial, sans-serif", fontSize: "14px", color: "#fff" }}>
